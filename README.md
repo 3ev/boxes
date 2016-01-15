@@ -11,6 +11,8 @@ Currently, these are the available boxes that you can use:
 
 ##Installation and Usage
 
+Before you do anything, [install Vagrant](https://github.com/3ev/boxes/wiki/Installing-Vagrant).
+
 You should have one copy of this project for each Vagrant box you want installed.
 It'll be easiest for you if you keep the projects in a single directory (like
 `~/Vargant/box-one`, `~/Vargant/box-two` etc), but that's up to you.
