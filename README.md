@@ -9,9 +9,12 @@ Currently, these are the available boxes that you can use:
 
 * `3ev/tev-production` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/dev-tev-production)
 
-##Installation and Usage
+##Before You Begin
 
-Before you do anything, [install Vagrant](https://github.com/3ev/boxes/wiki/Installing-Vagrant).
+* [Install Vagrant](https://github.com/3ev/boxes/wiki/Installing-Vagrant)
+* [Add your SSH key to `ssh-agent`](https://github.com/3ev/boxes/wiki/SSH-Keys#important)
+
+##Installation and Usage
 
 You should have one copy of this project for each Vagrant box you want installed.
 It'll be easiest for you if you keep the projects in a single directory (like
