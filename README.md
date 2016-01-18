@@ -7,6 +7,7 @@ Simple Vagrant setup that provides a template for using the pre-built
 
 Currently, these are the available boxes that you can use:
 
+* `3ev/tev-basic` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/master)
 * `3ev/tev-production` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/dev-tev-production)
 
 ##Before You Begin
@@ -50,10 +51,23 @@ and you'll be good to go!
 ##New Box Versions
 
 As boxes are updated (with additional software or whatever), Vagrant will notify
-that your local box is out-of-date (when you run `vagrant up`). Just run:
+that your local box is out-of-date (when you run `vagrant up`).
+
+You'll need to destroy your VM first before it can be updated (unfortunately). To
+run the update process:
 
 ```
+# Download the latest box (but don't do anything with it yet)
+
 $ vagrant box update 3ev/box-name
+
+# Destroy your VM
+
+$ vagrant destroy
+
+# Rebuild with the new box you downloaded
+
+$ vagrant up
 ```
 
 to bring your box up-to-date with the latest version.
