@@ -69,5 +69,3 @@ $ vagrant destroy
 
 $ vagrant up
 ```
-
-to bring your box up-to-date with the latest version.
