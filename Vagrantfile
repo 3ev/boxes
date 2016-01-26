@@ -1,3 +1,5 @@
+# vim: syntax=ruby
+
 require 'yaml'
 
 settings = YAML::load(File.read(File.dirname(__FILE__) + "/settings.yaml"))
