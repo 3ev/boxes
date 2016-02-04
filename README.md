@@ -24,7 +24,7 @@ It'll be easiest for you if you keep the projects in a single directory (like
 ###Setting up
 
 ```
-$ git clone git@github.com:3ev/3ev-boxes.git ~/Vagrant/box-name
+$ git clone git@github.com:3ev/boxes.git ~/Vagrant/box-name
 $ cd ~/Vagrant/box-name
 $ cp settings.yaml.example settings.yaml
 ```
