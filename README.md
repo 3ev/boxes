@@ -59,7 +59,7 @@ run the update process:
 ```
 # Download the latest box (but don't do anything with it yet)
 
-$ vagrant box update 3ev/box-name
+$ vagrant box update
 
 # Destroy your VM
 
