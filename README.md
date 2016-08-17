@@ -10,7 +10,7 @@ Currently, these are the available boxes that you can use:
 * `3ev/tev-basic` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/master)
 * `3ev/tev-production` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/dev-tev-production)
 
-(Registered at on [(atlas)](https://atlas.hashicorp.com/boxes/search?utf8=%E2%9C%93&sort=&provider=&q=3ev))
+(Registered at on [atlas](https://atlas.hashicorp.com/boxes/search?utf8=%E2%9C%93&sort=&provider=&q=3ev))
 
 ##Before You Begin
 
