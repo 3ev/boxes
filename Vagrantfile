@@ -27,6 +27,9 @@ Vagrant.configure(2) do |config|
   config.ssh.insert_key = false
   config.ssh.forward_agent = true
 
+  # Required because "they" won't change the login user. This might change in future.
+  config.ssh.username = settings["username"]
+
   # Override default SSH port
 
   config.vm.network "forwarded_port", guest: 22, host: settings["ssh_port"], id: "ssh"
