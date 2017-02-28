@@ -15,6 +15,8 @@ Currently, these are the available boxes that you can use:
 
     username: ubuntu
 
+(Registered at on [atlas](https://atlas.hashicorp.com/boxes/search?utf8=%E2%9C%93&sort=&provider=&q=3ev))
+
 ##Before You Begin
 
 * [Install Vagrant](https://github.com/3ev/boxes/wiki/Installing-Vagrant)
