@@ -1,9 +1,9 @@
-#3ev Vagrant Boxes
+# 3ev Vagrant Boxes
 
 Simple Vagrant setup that provides a template for using the pre-built
 [3ev Vagrant boxes](https://github.com/3ev/3ev-vagrant).
 
-##Available Boxes
+## Available Boxes
 
 Currently, these are the available boxes that you can use:
 
@@ -17,18 +17,18 @@ Currently, these are the available boxes that you can use:
 
 (Registered at on [atlas](https://atlas.hashicorp.com/boxes/search?utf8=%E2%9C%93&sort=&provider=&q=3ev))
 
-##Before You Begin
+## Before You Begin
 
 * [Install Vagrant](https://github.com/3ev/boxes/wiki/Installing-Vagrant)
 * [Add your SSH key to `ssh-agent`](https://github.com/3ev/boxes/wiki/SSH-Keys#important)
 
-##Installation and Usage
+## Installation and Usage
 
 You should have one copy of this project for each Vagrant box you want installed.
 It'll be easiest for you if you keep the projects in a single directory (like
 `~/Vargant/box-one`, `~/Vargant/box-two` etc), but that's up to you.
 
-###Setting up
+### Setting up
 
 ```
 $ git clone git@github.com:3ev/boxes.git ~/Vagrant/box-name
@@ -45,7 +45,7 @@ are:
 * `ram` - Amount of RAM you want to allocate (1.5GB by default)
 * `ip` - Networking IP (the default is fine)
 
-###Running
+### Running
 
 Once you've configured your box, just run:
 
@@ -55,7 +55,7 @@ $ vagrant up
 
 and you'll be good to go!
 
-##New Box Versions
+## New Box Versions
 
 As boxes are updated (with additional software or whatever), Vagrant will notify
 that your local box is out-of-date (when you run `vagrant up`).
