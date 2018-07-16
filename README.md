@@ -10,6 +10,7 @@ Currently, these are the available boxes that you can use:
 * `3ev/tev-basic` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/master)
 * `3ev/tev-production` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/dev-tev-production)
 * `3ev/u16` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/u16)
+* `3ev/modern` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/dev-tev-modern)
 
 **IMPORANT** if you use `u16` you *must* change the username in settings:
 
