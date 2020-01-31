@@ -56,6 +56,17 @@ $ vagrant up
 
 and you'll be good to go!
 
+## Errors with the Modern Box
+
+If you get an error when first launching the Modern box, related to a file not found:
+* Open the VirtualBox App on the host machine
+* Go to the box causing the issue
+* Go to: Settings > Ports > Path/Address
+* Change the username in the path from ryan to your own username
+
+If you get an error regarding signature verification:
+* Run `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
+
 ## New Box Versions
 
 As boxes are updated (with additional software or whatever), Vagrant will notify
