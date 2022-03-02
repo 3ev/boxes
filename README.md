@@ -12,11 +12,7 @@ Currently, these are the available boxes that you can use:
 * `3ev/u16` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/u16)
 * `3ev/modern` [(what's in it?)](https://github.com/3ev/3ev-vagrant/tree/dev-tev-modern)
 
-**IMPORANT** if you use `u16` you *must* change the username in settings:
-
-    username: ubuntu
-
-(Registered at on [atlas](https://atlas.hashicorp.com/boxes/search?utf8=%E2%9C%93&sort=&provider=&q=3ev))
+**IMPORTANT** See https://app.vagrantup.com/3ev for updated boxes
 
 ## Before You Begin
 
