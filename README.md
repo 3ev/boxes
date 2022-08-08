@@ -56,22 +56,28 @@ and you'll be good to go!
 
 ## Errors with the Modern Box
 
-If you get an error when first launching the Modern box, related to a file not found:
+1. If you get an error when first launching the Modern box, related to a file not found:
 * Open the VirtualBox App on the host machine
 * Go to the box causing the issue
 * Go to: Settings > Ports > Path/Address
 * Change the username in the path from ryan to your own username
 
-If you get an error regarding signature verification:
+2. If you get an error regarding signature verification:
 * Run `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
 
-If you get following error: 
+3. If you get following error: 
 ```mount.nfs: mounting 192.168.56.1:/Users/s... failed, reason given by server: No such file or directory```
 
 follow the steps here (for giving nFSD full access):
 
 https://jhooq.com/vagrant-nfs-shared-volume-error/
 
+4. You may also get an error something like: 
+```VagrantPlugins::HostDarwin::Cap::Version (NameError) ```
+
+go here on your local machine: ```/opt/vagrant/embedded/gems/2.2.19/gems/vagrant-2.2.19/plugins/hosts/darwin/cap```
+
+replace file: ```path.rb ``` with contents from this URL: https://raw.githubusercontent.com/hashicorp/vagrant/42db2569e32a69e604634462b633bb14ca20709a/plugins/hosts/darwin/cap/path.rb
 
 
 ## New Box Versions
