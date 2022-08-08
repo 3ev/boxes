@@ -3,6 +3,8 @@
 Simple Vagrant setup that provides a template for using the pre-built
 [3ev Vagrant boxes](https://github.com/3ev/3ev-vagrant).
 
+> PLEASE NOTE VAGRANT BOXES WILL NOT WORK FOR M1 macbook (ARM architecture).. 
+
 ## Available Boxes
 
 Currently, these are the available boxes that you can use:
@@ -62,6 +64,15 @@ If you get an error when first launching the Modern box, related to a file not f
 
 If you get an error regarding signature verification:
 * Run `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
+
+If you get following error: 
+```mount.nfs: mounting 192.168.56.1:/Users/s... failed, reason given by server: No such file or directory```
+
+follow the steps here (for giving nFSD full access):
+
+https://jhooq.com/vagrant-nfs-shared-volume-error/
+
+
 
 ## New Box Versions
 
